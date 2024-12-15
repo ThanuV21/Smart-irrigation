@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "smart_irrigation.o" --strict --scatter "smart2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\smart2.map" -o "smart2.axf"

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "smart_test.o" --strict --scatter "smart_3.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\smart_3.map" -o "smart_3.axf"
